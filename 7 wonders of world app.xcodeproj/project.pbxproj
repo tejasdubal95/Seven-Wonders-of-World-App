@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9796F9A51F7905CC0084DE08 /* MapViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9796F9A41F7905CC0084DE08 /* MapViewViewController.m */; };
+		9796F9AA1F7906630084DE08 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9796F9A91F7906630084DE08 /* MapKit.framework */; };
+		9796F9B51F79105C0084DE08 /* Chichen.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9796F9AE1F79105C0084DE08 /* Chichen.jpeg */; };
+		9796F9B61F79105C0084DE08 /* Redeemer.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9796F9AF1F79105C0084DE08 /* Redeemer.jpeg */; };
+		9796F9B71F79105C0084DE08 /* Macchu.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9796F9B01F79105C0084DE08 /* Macchu.jpeg */; };
+		9796F9B81F79105C0084DE08 /* Petra.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9796F9B11F79105C0084DE08 /* Petra.jpeg */; };
+		9796F9B91F79105C0084DE08 /* RomanColosseum.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9796F9B21F79105C0084DE08 /* RomanColosseum.jpeg */; };
+		9796F9BA1F79105C0084DE08 /* TajMahal.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9796F9B31F79105C0084DE08 /* TajMahal.jpeg */; };
+		9796F9BB1F79105C0084DE08 /* ChinaWall.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9796F9B41F79105C0084DE08 /* ChinaWall.jpeg */; };
+		9796F9C11F792B6A0084DE08 /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9796F9C01F792B6A0084DE08 /* secondViewController.m */; };
+		97EFF1391F79045600997A1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EFF1381F79045600997A1D /* main.m */; };
+		97EFF13C1F79045600997A1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EFF13B1F79045600997A1D /* AppDelegate.m */; };
+		97EFF1421F79045600997A1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97EFF1401F79045600997A1D /* Main.storyboard */; };
+		97EFF1441F79045600997A1D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97EFF1431F79045600997A1D /* Images.xcassets */; };
+		97EFF1471F79045600997A1D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97EFF1451F79045600997A1D /* LaunchScreen.xib */; };
+		97EFF1531F79045600997A1D /* __wonders_of_world_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EFF1521F79045600997A1D /* __wonders_of_world_appTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97EFF14D1F79045600997A1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97EFF12B1F79045500997A1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97EFF1321F79045600997A1D;
+			remoteInfo = "7 wonders of world app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9796F9A31F7905CC0084DE08 /* MapViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewViewController.h; sourceTree = "<group>"; };
+		9796F9A41F7905CC0084DE08 /* MapViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewViewController.m; sourceTree = "<group>"; };
+		9796F9A91F7906630084DE08 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9796F9AE1F79105C0084DE08 /* Chichen.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Chichen.jpeg; path = ../../../../Downloads/Chichen.jpeg; sourceTree = "<group>"; };
+		9796F9AF1F79105C0084DE08 /* Redeemer.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Redeemer.jpeg; path = ../../../../Downloads/Redeemer.jpeg; sourceTree = "<group>"; };
+		9796F9B01F79105C0084DE08 /* Macchu.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Macchu.jpeg; path = ../../../../Downloads/Macchu.jpeg; sourceTree = "<group>"; };
+		9796F9B11F79105C0084DE08 /* Petra.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Petra.jpeg; path = ../../../../Downloads/Petra.jpeg; sourceTree = "<group>"; };
+		9796F9B21F79105C0084DE08 /* RomanColosseum.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = RomanColosseum.jpeg; path = ../../../../Downloads/RomanColosseum.jpeg; sourceTree = "<group>"; };
+		9796F9B31F79105C0084DE08 /* TajMahal.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = TajMahal.jpeg; path = ../../../../Downloads/TajMahal.jpeg; sourceTree = "<group>"; };
+		9796F9B41F79105C0084DE08 /* ChinaWall.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ChinaWall.jpeg; path = ../../../../Downloads/ChinaWall.jpeg; sourceTree = "<group>"; };
+		9796F9BF1F792B6A0084DE08 /* secondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondViewController.h; sourceTree = "<group>"; };
+		9796F9C01F792B6A0084DE08 /* secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
+		97EFF1331F79045600997A1D /* 7 wonders of world app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "7 wonders of world app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97EFF1371F79045600997A1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97EFF1381F79045600997A1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		97EFF13A1F79045600997A1D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		97EFF13B1F79045600997A1D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		97EFF1411F79045600997A1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97EFF1431F79045600997A1D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		97EFF1461F79045600997A1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		97EFF14C1F79045600997A1D /* 7 wonders of world appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "7 wonders of world appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97EFF1511F79045600997A1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97EFF1521F79045600997A1D /* __wonders_of_world_appTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __wonders_of_world_appTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97EFF1301F79045600997A1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9796F9AA1F7906630084DE08 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EFF1491F79045600997A1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97EFF12A1F79045500997A1D = {
+			isa = PBXGroup;
+			children = (
+				9796F9A91F7906630084DE08 /* MapKit.framework */,
+				97EFF1351F79045600997A1D /* 7 wonders of world app */,
+				97EFF14F1F79045600997A1D /* 7 wonders of world appTests */,
+				97EFF1341F79045600997A1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97EFF1341F79045600997A1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97EFF1331F79045600997A1D /* 7 wonders of world app.app */,
+				97EFF14C1F79045600997A1D /* 7 wonders of world appTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97EFF1351F79045600997A1D /* 7 wonders of world app */ = {
+			isa = PBXGroup;
+			children = (
+				97EFF13A1F79045600997A1D /* AppDelegate.h */,
+				97EFF13B1F79045600997A1D /* AppDelegate.m */,
+				9796F9A31F7905CC0084DE08 /* MapViewViewController.h */,
+				9796F9A41F7905CC0084DE08 /* MapViewViewController.m */,
+				9796F9BF1F792B6A0084DE08 /* secondViewController.h */,
+				9796F9C01F792B6A0084DE08 /* secondViewController.m */,
+				9796F9AE1F79105C0084DE08 /* Chichen.jpeg */,
+				9796F9AF1F79105C0084DE08 /* Redeemer.jpeg */,
+				9796F9B01F79105C0084DE08 /* Macchu.jpeg */,
+				9796F9B11F79105C0084DE08 /* Petra.jpeg */,
+				9796F9B21F79105C0084DE08 /* RomanColosseum.jpeg */,
+				9796F9B31F79105C0084DE08 /* TajMahal.jpeg */,
+				9796F9B41F79105C0084DE08 /* ChinaWall.jpeg */,
+				97EFF1401F79045600997A1D /* Main.storyboard */,
+				97EFF1431F79045600997A1D /* Images.xcassets */,
+				97EFF1451F79045600997A1D /* LaunchScreen.xib */,
+				97EFF1361F79045600997A1D /* Supporting Files */,
+			);
+			path = "7 wonders of world app";
+			sourceTree = "<group>";
+		};
+		97EFF1361F79045600997A1D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				97EFF1371F79045600997A1D /* Info.plist */,
+				97EFF1381F79045600997A1D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		97EFF14F1F79045600997A1D /* 7 wonders of world appTests */ = {
+			isa = PBXGroup;
+			children = (
+				97EFF1521F79045600997A1D /* __wonders_of_world_appTests.m */,
+				97EFF1501F79045600997A1D /* Supporting Files */,
+			);
+			path = "7 wonders of world appTests";
+			sourceTree = "<group>";
+		};
+		97EFF1501F79045600997A1D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				97EFF1511F79045600997A1D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97EFF1321F79045600997A1D /* 7 wonders of world app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97EFF1561F79045600997A1D /* Build configuration list for PBXNativeTarget "7 wonders of world app" */;
+			buildPhases = (
+				97EFF12F1F79045600997A1D /* Sources */,
+				97EFF1301F79045600997A1D /* Frameworks */,
+				97EFF1311F79045600997A1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "7 wonders of world app";
+			productName = "7 wonders of world app";
+			productReference = 97EFF1331F79045600997A1D /* 7 wonders of world app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97EFF14B1F79045600997A1D /* 7 wonders of world appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97EFF1591F79045600997A1D /* Build configuration list for PBXNativeTarget "7 wonders of world appTests" */;
+			buildPhases = (
+				97EFF1481F79045600997A1D /* Sources */,
+				97EFF1491F79045600997A1D /* Frameworks */,
+				97EFF14A1F79045600997A1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97EFF14E1F79045600997A1D /* PBXTargetDependency */,
+			);
+			name = "7 wonders of world appTests";
+			productName = "7 wonders of world appTests";
+			productReference = 97EFF14C1F79045600997A1D /* 7 wonders of world appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97EFF12B1F79045500997A1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = felix;
+				TargetAttributes = {
+					97EFF1321F79045600997A1D = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					97EFF14B1F79045600997A1D = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 97EFF1321F79045600997A1D;
+					};
+				};
+			};
+			buildConfigurationList = 97EFF12E1F79045500997A1D /* Build configuration list for PBXProject "7 wonders of world app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97EFF12A1F79045500997A1D;
+			productRefGroup = 97EFF1341F79045600997A1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97EFF1321F79045600997A1D /* 7 wonders of world app */,
+				97EFF14B1F79045600997A1D /* 7 wonders of world appTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97EFF1311F79045600997A1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9796F9B81F79105C0084DE08 /* Petra.jpeg in Resources */,
+				97EFF1421F79045600997A1D /* Main.storyboard in Resources */,
+				9796F9B71F79105C0084DE08 /* Macchu.jpeg in Resources */,
+				9796F9B51F79105C0084DE08 /* Chichen.jpeg in Resources */,
+				9796F9B61F79105C0084DE08 /* Redeemer.jpeg in Resources */,
+				9796F9B91F79105C0084DE08 /* RomanColosseum.jpeg in Resources */,
+				9796F9BB1F79105C0084DE08 /* ChinaWall.jpeg in Resources */,
+				9796F9BA1F79105C0084DE08 /* TajMahal.jpeg in Resources */,
+				97EFF1471F79045600997A1D /* LaunchScreen.xib in Resources */,
+				97EFF1441F79045600997A1D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EFF14A1F79045600997A1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97EFF12F1F79045600997A1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9796F9A51F7905CC0084DE08 /* MapViewViewController.m in Sources */,
+				97EFF13C1F79045600997A1D /* AppDelegate.m in Sources */,
+				97EFF1391F79045600997A1D /* main.m in Sources */,
+				9796F9C11F792B6A0084DE08 /* secondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EFF1481F79045600997A1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97EFF1531F79045600997A1D /* __wonders_of_world_appTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97EFF14E1F79045600997A1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97EFF1321F79045600997A1D /* 7 wonders of world app */;
+			targetProxy = 97EFF14D1F79045600997A1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		97EFF1401F79045600997A1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97EFF1411F79045600997A1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97EFF1451F79045600997A1D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97EFF1461F79045600997A1D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97EFF1541F79045600997A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97EFF1551F79045600997A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97EFF1571F79045600997A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "7 wonders of world app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		97EFF1581F79045600997A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "7 wonders of world app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		97EFF15A1F79045600997A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "7 wonders of world appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/7 wonders of world app.app/7 wonders of world app";
+			};
+			name = Debug;
+		};
+		97EFF15B1F79045600997A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "7 wonders of world appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/7 wonders of world app.app/7 wonders of world app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97EFF12E1F79045500997A1D /* Build configuration list for PBXProject "7 wonders of world app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97EFF1541F79045600997A1D /* Debug */,
+				97EFF1551F79045600997A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97EFF1561F79045600997A1D /* Build configuration list for PBXNativeTarget "7 wonders of world app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97EFF1571F79045600997A1D /* Debug */,
+				97EFF1581F79045600997A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97EFF1591F79045600997A1D /* Build configuration list for PBXNativeTarget "7 wonders of world appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97EFF15A1F79045600997A1D /* Debug */,
+				97EFF15B1F79045600997A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97EFF12B1F79045500997A1D /* Project object */;
+}
